@@ -1,0 +1,29 @@
+on:
+  workflow_call:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        # https://github.com/actions/runner-images#available-images
+        os: [ubuntu-latest]
+        py_ver:
+          - "3.10"
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pdm-project/setup-pdm@v4
+        with:
+          python-version: ${{ matrix.py_ver }}
+          cache: true
+          cache-dependency-path: "**/pdm.lock"
+      - run: pdm install
+      - run: pdm list --graph
+      # - run: pdm run pytest
+
+      # - uses: wntrblm/nox@2023.04.22
+      #   with:
+      #     python-versions: ${{ matrix.py_ver }}
+      # - run: nox -ts -s ci -p ${{ matrix.py_ver }}
