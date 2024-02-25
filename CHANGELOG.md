@@ -2,6 +2,17 @@
 
 
 
+## v0.3.0 (2024-02-25)
+
+### Feature
+
+* feat: release ([`6d944ce`](https://github.com/michaelwhouse/buffer/commit/6d944ce05d2758ac7fe2996067b86ebc4a1f8844))
+
+### Unknown
+
+* wip ([`f765320`](https://github.com/michaelwhouse/buffer/commit/f7653207531557a95ecf16220d2c805882dd4bbf))
+
+
 ## v0.2.0 (2024-02-25)
 
 ### Feature
