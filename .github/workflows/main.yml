@@ -19,13 +19,3 @@ jobs:
     needs:
       - test
       - pre-commit
-
-  packages:
-    if: ${{ github.ref == 'refs/heads/master' }}
-    uses: ./.github/workflows/_packages.yml
-    permissions:
-      contents: read
-      packages: write
-    needs:
-      - test
-      - pre-commit

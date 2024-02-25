@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  _pdm_publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pdm-project/setup-pdm@v3
+      - run: pdm publish
