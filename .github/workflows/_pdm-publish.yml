@@ -1,5 +1,6 @@
 on:
   workflow_call:
+    secrets: PYPI_API_TOKEN
 
 jobs:
   publish:
