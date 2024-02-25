@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: pdm-project/setup-pdm@v3
-      - run: pdm publish
+      - run: pdm publish -u "__token__" -P "${{ secrets.PYPI_API_TOKEN }}"
