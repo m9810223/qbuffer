@@ -2,6 +2,13 @@
 
 
 
+## v0.6.0 (2024-02-25)
+
+### Feature
+
+* feat: release ([`aebe2ac`](https://github.com/michaelwhouse/buffer/commit/aebe2ac74f082738750a7e361ef411b7ae56690a))
+
+
 ## v0.5.0 (2024-02-25)
 
 ### Feature
