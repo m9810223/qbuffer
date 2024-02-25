@@ -2,6 +2,13 @@
 
 
 
+## v0.5.0 (2024-02-25)
+
+### Feature
+
+* feat: release ([`b50a43b`](https://github.com/michaelwhouse/buffer/commit/b50a43b16951065e3b96784d59a5e197f8f2be7e))
+
+
 ## v0.4.0 (2024-02-25)
 
 ### Feature
