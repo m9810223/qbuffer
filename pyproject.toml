@@ -32,19 +32,19 @@ output-format = "full"
 
 [tool.ruff.lint]
 extend-select = [
-  "W",   # pycodestyle Warning
-  "I",   # isort
-  "N",   # pep8-naming
-  "S",   # flake8-bandit
-  "PTH", # flake8-use-pathlib
-  "PGH", # pygrep-hooks
-  "TRY", # tryceratops
+    "W",   # pycodestyle Warning
+    "I",   # isort
+    "N",   # pep8-naming
+    "S",   # flake8-bandit
+    "PTH", # flake8-use-pathlib
+    "PGH", # pygrep-hooks
+    "TRY", # tryceratops
 ]
 ignore = [
-  "E501",   # line-too-long
-  "S101",   # Use of `assert` detected
-  "TRY003", # raise-vanilla-args
-  # "TRY400", # error-instead-of-exception
+    "E501",   # line-too-long
+    "S101",   # Use of `assert` detected
+    "TRY003", # raise-vanilla-args
+    # "TRY400", # error-instead-of-exception
 ]
 
 [tool.ruff.lint.isort]
