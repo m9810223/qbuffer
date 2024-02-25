@@ -2,6 +2,21 @@
 
 
 
+## v0.9.0 (2024-02-25)
+
+### Feature
+
+* feat: release ([`8fbe581`](https://github.com/michaelwhouse/buffer/commit/8fbe5818f55d9caf8ac5dc6d17139263d84b6f06))
+
+* feat: release ([`a36a366`](https://github.com/michaelwhouse/buffer/commit/a36a366d2e631f88287e4434998a52fa3d36a8d1))
+
+### Unknown
+
+* 2024/02/25 21:09:04 ([`8856df0`](https://github.com/michaelwhouse/buffer/commit/8856df06159a5fc370260d84561a4dc4ba3cad1b))
+
+* 2024/02/25 21:05:22 ([`a9eee36`](https://github.com/michaelwhouse/buffer/commit/a9eee362483da93869efd3116b3b114778076c70))
+
+
 ## v0.8.0 (2024-02-25)
 
 ### Feature
