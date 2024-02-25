@@ -1,8 +1,8 @@
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
-  _pdm_publish:
+  publish:
     runs-on: ubuntu-latest
     permissions:
       contents: read

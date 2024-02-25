@@ -17,3 +17,9 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+
+  pdm-publish:
+    uses: ./.github/workflows/_pdm-publish.yml
+    permissions:
+      contents: read
+      id-token: write
