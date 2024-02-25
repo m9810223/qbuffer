@@ -17,7 +17,6 @@ dev = ["pytest>=8.0.2"]
 # https://python-semantic-release.readthedocs.io/en/latest/configuration.html
 version_toml = ["pyproject.toml:project.version"]
 version_variables = ["src/buffer/__version__.py:VERSION"]
-# build_command = "pip install pdm && pdm build"
 
 [tool.black]
 # https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html
@@ -44,7 +43,7 @@ ignore = [
     "E501",   # line-too-long
     "S101",   # Use of `assert` detected
     "TRY003", # raise-vanilla-args
-    # "TRY400", # error-instead-of-exception
+    "TRY400", # error-instead-of-exception
 ]
 
 [tool.ruff.lint.isort]
