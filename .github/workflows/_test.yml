@@ -21,9 +21,4 @@ jobs:
           cache-dependency-path: "**/pdm.lock"
       - run: pdm install
       - run: pdm list --graph
-      # - run: pdm run pytest
-
-      # - uses: wntrblm/nox@2023.04.22
-      #   with:
-      #     python-versions: ${{ matrix.py_ver }}
-      # - run: nox -ts -s ci -p ${{ matrix.py_ver }}
+      - run: pdm run pytest
