@@ -5,7 +5,7 @@ import typing as t
 T = t.TypeVar('T')
 
 
-class Buffer(t.Generic[T]):
+class Qbuffer(t.Generic[T]):
     def __init__(
         self,
         *,

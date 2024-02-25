@@ -1,9 +1,9 @@
-from buffer import Buffer
+from qbuffer import Qbuffer
 
 
 def test_append():
     temp = []
-    b = Buffer(size=3, callback=temp.append)
+    b = Qbuffer(size=3, callback=temp.append)
 
     b.append(0)
     assert temp == []
@@ -19,7 +19,7 @@ def test_append():
 
 def test_extend():
     temp = []
-    b = Buffer(size=3, callback=temp.append)
+    b = Qbuffer(size=3, callback=temp.append)
 
     b.extend(range(2))
     assert temp == []
