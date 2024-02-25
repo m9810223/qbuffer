@@ -2,6 +2,13 @@
 
 
 
+## v0.14.0 (2024-02-25)
+
+### Feature
+
+* feat: release ([`fa7c780`](https://github.com/michaelwhouse/buffer/commit/fa7c7804e36c6ed06c8327b138e4b65362d04d4e))
+
+
 ## v0.13.0 (2024-02-25)
 
 ### Feature
