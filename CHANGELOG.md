@@ -2,6 +2,21 @@
 
 
 
+## v0.4.0 (2024-02-25)
+
+### Feature
+
+* feat: release ([`b65bf2b`](https://github.com/michaelwhouse/buffer/commit/b65bf2b33aca3c478ee3ef84599e67fc0b13cf0b))
+
+* feat: release ([`c51aad2`](https://github.com/michaelwhouse/buffer/commit/c51aad285408e7478cea563e326317a4df524ff5))
+
+* feat: release ([`9c52bed`](https://github.com/michaelwhouse/buffer/commit/9c52bedf814d25b6782ed9da51646a9f9426dc6f))
+
+### Unknown
+
+* Merge branch &#39;master&#39; of github.com:michaelwhouse/buffer ([`214b27c`](https://github.com/michaelwhouse/buffer/commit/214b27ca78f9550e3c0e297e41a867ffb691d7b1))
+
+
 ## v0.3.0 (2024-02-25)
 
 ### Feature
