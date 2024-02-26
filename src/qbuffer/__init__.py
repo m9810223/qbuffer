@@ -9,18 +9,18 @@ class Qbuffer(t.Generic[T]):
     def __init__(
         self,
         *,
-        size: int,
+        maxlen: int,
         callback: t.Callable[[T], None],
         flush_callback: t.Callable[[], None] = lambda: None,
     ):
-        self.size = size
+        self.maxlen = maxlen
         self.callback = callback
         self.flush_callback = flush_callback
         self.queue: deque[T] = deque()
 
     def append(self, item: T, *, flush=False):
         self.queue.append(item)
-        if len(self.queue) >= self.size:
+        if len(self.queue) >= self.maxlen:
             self.flush()
         if flush:
             self.flush()
