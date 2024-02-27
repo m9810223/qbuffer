@@ -2,6 +2,15 @@
 
 
 
+## v2.0.0 (2024-02-27)
+
+### Breaking
+
+* feat: ...
+
+BREAKING CHANGE: ... ([`1dad0d5`](https://github.com/michaelwhouse/qbuffer/commit/1dad0d52ef5bfec8c404c6cef18c3fdf42ec4615))
+
+
 ## v1.2.0 (2024-02-27)
 
 ### Feature
