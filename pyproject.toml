@@ -18,6 +18,9 @@ dev = ["pytest>=8.0.2"]
 version_toml = ["pyproject.toml:project.version"]
 version_variables = ["src/qbuffer/__version__.py:VERSION"]
 
+[tool.semantic_release.commit_parser_options]
+major_tags = ["BREAKING CHANGE"]
+
 [tool.black]
 # https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html
 line-length = 100
