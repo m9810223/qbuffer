@@ -2,6 +2,16 @@
 
 
 
+## v1.1.0 (2024-02-27)
+
+### Feature
+
+* feat:
+
+BREAKING CHANGE: ...
+... ([`086ffde`](https://github.com/michaelwhouse/qbuffer/commit/086ffdeed8c32d3b6e8900d26d0b793394ead705))
+
+
 ## v1.0.0 (2024-02-27)
 
 ### Breaking
