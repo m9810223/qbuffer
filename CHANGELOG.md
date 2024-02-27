@@ -2,6 +2,19 @@
 
 
 
+## v1.0.0 (2024-02-27)
+
+### Breaking
+
+* feat: ...
+
+BREAKING CHANGE: ... ([`8f6638f`](https://github.com/michaelwhouse/qbuffer/commit/8f6638ff4239fc951c7fce1b78545cb3f9749d40))
+
+### Unknown
+
+* BREAKING CHANGE: feat: rename argument `size` to `maxlen` in `QBuffer` class ([`ab2b645`](https://github.com/michaelwhouse/qbuffer/commit/ab2b645c1f5d7a78670c1bf3af61dc85dbf1909c))
+
+
 ## v0.19.0 (2024-02-27)
 
 ### Feature
