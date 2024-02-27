@@ -2,6 +2,16 @@
 
 
 
+## v0.19.0 (2024-02-27)
+
+### Feature
+
+* feat: rename argument `size` to `maxlen` in `QBuffer` class
+
+BREAKING CHANGE
+- The argument `size` in the `QBuffer` class has been renamed to `maxlen`. ([`8efe91e`](https://github.com/michaelwhouse/qbuffer/commit/8efe91e0bd3f4f66e389c1a4faad34629040805d))
+
+
 ## v0.18.0 (2024-02-26)
 
 ### Feature
