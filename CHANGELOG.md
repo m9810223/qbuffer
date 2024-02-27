@@ -2,6 +2,14 @@
 
 
 
+## v1.2.0 (2024-02-27)
+
+### Feature
+
+* feat: ...
+BREAKING CHANGE: ... ([`3dd7117`](https://github.com/michaelwhouse/qbuffer/commit/3dd71175a9f95f857800e68dd47bf04f59158e07))
+
+
 ## v1.1.0 (2024-02-27)
 
 ### Feature
