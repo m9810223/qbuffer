@@ -31,13 +31,21 @@ class Qbuffer(t.Generic[T]):
         if flush:
             self.flush()
 
-    def __del__(self):
-        self.close()
-
-    def close(self):
-        self.flush()
-
     def flush(self):
         while self.queue:
             self.callback(self.queue.popleft())
         self.flush_callback()
+
+    ###
+
+    def close(self):
+        self.flush()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        self.close()
+
+    def __del__(self):
+        self.close()
