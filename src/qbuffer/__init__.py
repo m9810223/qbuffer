@@ -16,11 +16,11 @@ class Qbuffer(t.Generic[T]):
         self.maxlen = maxlen
         self.callback = callback
         self.flush_callback = flush_callback
-        self.queue: deque[T] = deque()
+        self.data: deque[T] = deque()
 
     def append(self, item: T, *, flush=False):
-        self.queue.append(item)
-        if len(self.queue) >= self.maxlen:
+        self.data.append(item)
+        if len(self.data) >= self.maxlen:
             self.flush()
         if flush:
             self.flush()
@@ -32,8 +32,8 @@ class Qbuffer(t.Generic[T]):
             self.flush()
 
     def flush(self):
-        while self.queue:
-            self.callback(self.queue.popleft())
+        while self.data:
+            self.callback(self.data.popleft())
         self.flush_callback()
 
     ###
