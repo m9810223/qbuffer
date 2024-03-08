@@ -2,6 +2,25 @@
 
 
 
+## v2.2.0 (2024-03-08)
+
+### Chore
+
+* chore: update pre-commit hooks ([`4966b54`](https://github.com/michaelwhouse/qbuffer/commit/4966b54307b202bf56afc331bdb688a531dea126))
+
+### Feature
+
+* feat: release ([`75bf7dc`](https://github.com/michaelwhouse/qbuffer/commit/75bf7dc90c7e71c568b6d2590f62df4b499f985e))
+
+### Unknown
+
+* Merge pull request #1 from michaelwhouse/pre-commit-autoupdate
+
+Update pre-commit hooks ([`e49e059`](https://github.com/michaelwhouse/qbuffer/commit/e49e0597964ab6c06c64238b3005697403355461))
+
+* Update _pre-commit-autoupdate.yml ([`7758520`](https://github.com/michaelwhouse/qbuffer/commit/7758520862501682afbe0b8f15540eb0532588e0))
+
+
 ## v2.1.0 (2024-03-01)
 
 ### Feature
