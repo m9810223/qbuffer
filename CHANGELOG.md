@@ -2,6 +2,13 @@
 
 
 
+## v2.3.0 (2024-03-19)
+
+### Feature
+
+* feat: release ([`57433a5`](https://github.com/michaelwhouse/qbuffer/commit/57433a56685ac467ac679adc0e2e0adbf97387ed))
+
+
 ## v2.2.0 (2024-03-08)
 
 ### Chore
