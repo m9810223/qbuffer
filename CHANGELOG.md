@@ -2,6 +2,13 @@
 
 
 
+## v2.4.0 (2024-04-08)
+
+### Feature
+
+* feat: release ([`7191171`](https://github.com/michaelwhouse/qbuffer/commit/719117126977a994a5fb89295b76c843b1d868d8))
+
+
 ## v2.3.0 (2024-03-19)
 
 ### Feature
