@@ -10,8 +10,8 @@ class Qbuffer(t.Generic[T]):
         self,
         *,
         maxlen: int,
-        callback: t.Callable[[T], None],
-        flush_callback: t.Callable[[], None] = lambda: None,
+        callback: t.Callable[[T], t.Any],
+        flush_callback: t.Callable[[], t.Any] = lambda: None,
     ):
         self.maxlen = maxlen
         self.callback = callback
