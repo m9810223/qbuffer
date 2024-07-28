@@ -23,17 +23,17 @@ repos:
   ### PYTHON
 
   - repo: https://github.com/psf/black
-    rev: 6fdf8a4af28071ed1d079c01122b34c5d587207a  # frozen: 24.2.0
+    rev: 3702ba224ecffbcec30af640c149f231d90aebdb  # frozen: 24.4.2
     hooks: # https://black.readthedocs.io/en/stable/integrations/source_version_control.html
       - id: black
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: 0dd3437ad984b107802b242c696edf2bd72676ee  # frozen: v0.3.0
+    rev: 1ee2e387938ec90ec10a64f85fc0b4be527ade6a  # frozen: v0.5.5
     hooks: # https://beta.ruff.rs/docs/installation-and-usage/#usage
       - id: ruff
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "8cd2d4056637e242709fe09f15a36f0b4b682bda" # frozen: v1.8.0
+    rev: "81dd99696c1d642c69c3158fd53b2d6c73245425"  # frozen: v1.11.0
     hooks:
       - id: mypy
         additional_dependencies: [types-all]
@@ -41,7 +41,7 @@ repos:
           - --explicit-package-bases
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: df17dfa3911b81b4a27190b0eea5b1debc7ffa0a # frozen: v3.15.1
+    rev: 32151ac97cbfd7f9dcd22e49516fb32266db45b4  # frozen: v3.16.0
     hooks:
       - id: pyupgrade
 
@@ -57,12 +57,12 @@ repos:
   ### MISC
 
   - repo: https://github.com/crate-ci/typos
-    rev: 68c7289a620636165869822d2d233e785272935b  # frozen: v1.19.0
+    rev: c75027dd975165a4ed7ae0114a06b03a52ef0638  # frozen: v1.23.5
     hooks:
       - id: typos
 
   - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-    rev: 0afbc519ee4aa0a1eb0f7dd78876c8de46d4cf08 # frozen: v2.12.0
+    rev: a6273196190bb0f68caf1dc68073cf62c719f725  # frozen: v2.14.0
     hooks:
       - id: pretty-format-yaml
         args:
@@ -71,7 +71,7 @@ repos:
           - --autofix
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: c4a0b883114b00d8d76b479c820ce7950211c99b # frozen: v4.5.0
+    rev: 2c9f875913ee60ca25ce70243dc24d5b6415598c  # frozen: v4.6.0
     hooks: # https://pre-commit.com/hooks.html
       # `(\S) - ` -> `$1 # `
       - id: check-added-large-files # prevents giant files from being committed.
